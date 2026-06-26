@@ -10,7 +10,7 @@ The implementations are organized according to the three permeability configurat
 * 2K – Single permeability anomaly case.
 * 3K – Two permeability anomaly case.
 
-Each subdirectory contains the implementations for the different inverse PINN variants investigated in the paper, including different regularization strategies and training configurations.
+Each subdirectory contains the implementations for the different inverse PINN variants investigated in the paper, including different regularization strategies.
 
 ## Input
 
