@@ -1,4 +1,4 @@
-1K: Homogeneous Permeability
+#1K: Homogeneous Permeability
 
 This directory contains the inverse PINN implementations for reconstructing the homogeneous permeability field. Three inverse PINN variants are included:
 
@@ -10,7 +10,7 @@ The network architecture, training procedure, and numerical setup are identical 
 
 Input
 
-Each regularization case uses one forward PINN output file as input, for example:
+Each regularization strategy uses one forward PINN output file as input, for example:
 
 forward_output_1K_run1.csv
 
@@ -30,7 +30,7 @@ Output
 
 Each implementation generates:
 
-A trained inverse PINN model (.pth file).
+A trained inverse PINN model (`.pth` file).
 A CSV file containing the reconstructed permeability field.
 Predicted velocity and pressure fields.
 Output files used for visualization and quantitative error analysis.
