@@ -148,6 +148,7 @@ def train_adam(model, optimizer, scheduler, epochs, print_every=500):
         current_epoch += 1
 
         if ep % print_every == 0:
+            print(f"Epoch {current_epoch:5d} | loss={loss.item():.3e}")
 
 
 def train_inverse_pinn():
