@@ -48,7 +48,6 @@ nvec = torch.tensor([-1.0, 0.0], dtype=torch.float32).to(DEVICE)
 class InversePINN(nn.Module):
     def __init__(self):
         super().__init__()
-        # Network for u and p
         self.fc1 = nn.Linear(2, 1024)
         self.fc2 = nn.Linear(1024, 1024)
         self.fc3 = nn.Linear(1024, 1024)
