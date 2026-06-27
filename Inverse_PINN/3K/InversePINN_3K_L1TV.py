@@ -189,8 +189,8 @@ def train_inverse_pinn():
     train_adam(model, optimizer, scheduler, epochs=8000, print_every=1000)
     print(f"\nPhase A completed in {time.time() - t0:.1f}s")
 
-    os.makedirs("ckpts_l1_tv", exist_ok=True)
-    BEST_CKPT = "ckpts_l1_tv/BEST_MODEL.pth"
+    os.makedirs("ckpts_3kl1tv", exist_ok=True)
+    BEST_CKPT = "ckpts_3kl1tv/BEST_MODEL.pth"
     best_loss = float("inf")
 
     get_lbfgs = lambda: optim.LBFGS(model.parameters(), lr=1.0, max_iter=100,
