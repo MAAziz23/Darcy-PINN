@@ -241,7 +241,7 @@ def train_inverse_pinn():
         K_full = model.get_K(interior_pts).cpu().numpy().reshape(-1, 1)
 
     out = np.hstack((x_y, preds_full, K_full))
-    np.savetxt("inverse_output_3K_L1TV_run10.csv", out, delimiter=",", header="x,y,u_x,u_y,p,K", comments="")
+    np.savetxt("inverse_output_3K_L1TV_run1.csv", out, delimiter=",", header="x,y,u_x,u_y,p,K", comments="")
 
     
     from sklearn.cluster import KMeans
