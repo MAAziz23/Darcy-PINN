@@ -26,9 +26,6 @@ Simply specify the desired input filename within the script to visualize the cor
 The script generates:
 
 * A contour plot of the speed magnitude,
- [
- |\mathbf{u}|=\sqrt{u_x^2+u_y^2},
- ]
 * A contour plot of the pressure field.
 
 Both figures are saved as high-resolution PNG files and displayed on screen.
