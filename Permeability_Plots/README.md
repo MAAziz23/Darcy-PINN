@@ -3,7 +3,7 @@
 This directory contains the visualization script used to compare the reconstructed permeability fields obtained from the inverse PINN with the corresponding ground-truth permeability distributions for the three numerical test cases considered in our paper.
 
 # File
-Plot_Comparison_K.py – Generates side-by-side comparisons of the true and reconstructed permeability fields for the homogeneous, single-anomaly, and two-anomaly permeability cases.
+K_plotting.py – Generates side-by-side comparisons of the true and reconstructed permeability fields for the homogeneous, single-anomaly, and two-anomaly permeability cases.
 
 # Input
 
