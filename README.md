@@ -10,11 +10,11 @@ This repository contains the source code accompanying our paper on **Self-Adapti
 * Inverse_PINN/
   Implementation of the inverse PINNs for reconstructing the permeability field from synthetic observations. Multiple regularization strategies are included for each problem.
 
-* Permeability_Comparison/
-  Scripts for visualizing and comparing the reconstructed permeability fields with the corresponding ground-truth permeability distributions.
-
 * Plot_Speed_Pressure/
   Scripts for generating contour plots of the speed magnitude and pressure fields from FEM, forward PINN, or inverse PINN solution data.
+
+* Permeability_Comparison/
+  Scripts for visualizing and comparing the reconstructed permeability fields with the corresponding ground-truth permeability distributions.
 
 * Error_Calculation/
   Scripts for computing quantitative error metrics (MAE, Relative (L^2), and RMSE) by comparing PINN predictions with the corresponding finite element (FEM) reference solutions.
